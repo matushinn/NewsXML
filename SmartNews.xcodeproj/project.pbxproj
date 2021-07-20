@@ -21,6 +21,9 @@
 		370DAA6626A7084000D89A49 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 370DAA6026A7084000D89A49 /* 4.json */; };
 		370DAA6826A7084000D89A49 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 370DAA6226A7084000D89A49 /* 1.json */; };
 		370DAA6A26A708A200D89A49 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA6926A708A200D89A49 /* IntroViewController.swift */; };
+		370DAA6C26A71FC000D89A49 /* LoginMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA6B26A71FC000D89A49 /* LoginMovieViewController.swift */; };
+		370DAA6E26A7230D00D89A49 /* start.mov in Resources */ = {isa = PBXBuildFile; fileRef = 370DAA6D26A7230D00D89A49 /* start.mov */; };
+		370DAA7026A723A200D89A49 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA6F26A723A200D89A49 /* BaseViewController.swift */; };
 		B054888AE5D8414F658A89CB /* Pods_SmartNews_SmartNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777A4522277D37715F4142B3 /* Pods_SmartNews_SmartNewsUITests.framework */; };
 		F71E50D9D9552ACFB212C2C0 /* Pods_SmartNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4641FFC2D435B9EC0182DCDB /* Pods_SmartNews.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +66,9 @@
 		370DAA6026A7084000D89A49 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
 		370DAA6226A7084000D89A49 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
 		370DAA6926A708A200D89A49 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		370DAA6B26A71FC000D89A49 /* LoginMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMovieViewController.swift; sourceTree = "<group>"; };
+		370DAA6D26A7230D00D89A49 /* start.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = start.mov; sourceTree = "<group>"; };
+		370DAA6F26A723A200D89A49 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4641FFC2D435B9EC0182DCDB /* Pods_SmartNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		777A4522277D37715F4142B3 /* Pods_SmartNews_SmartNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNews_SmartNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		912B0AE070D8FA72D9AF2FD0 /* Pods_SmartNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +141,7 @@
 				370DAA5D26A7084000D89A49 /* 3.json */,
 				370DAA6026A7084000D89A49 /* 4.json */,
 				370DAA5F26A7084000D89A49 /* 5.json */,
+				370DAA6D26A7230D00D89A49 /* start.mov */,
 			);
 			path = SmartNews;
 			sourceTree = "<group>";
@@ -180,6 +187,8 @@
 				370DAA2A26A6FDFA00D89A49 /* AppDelegate.swift */,
 				370DAA2C26A6FDFA00D89A49 /* SceneDelegate.swift */,
 				370DAA6926A708A200D89A49 /* IntroViewController.swift */,
+				370DAA6B26A71FC000D89A49 /* LoginMovieViewController.swift */,
+				370DAA6F26A723A200D89A49 /* BaseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -316,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				370DAA6426A7084000D89A49 /* 2.json in Resources */,
+				370DAA6E26A7230D00D89A49 /* start.mov in Resources */,
 				370DAA3726A6FDFE00D89A49 /* LaunchScreen.storyboard in Resources */,
 				370DAA6626A7084000D89A49 /* 4.json in Resources */,
 				370DAA6326A7084000D89A49 /* 3.json in Resources */,
@@ -450,7 +460,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370DAA7026A723A200D89A49 /* BaseViewController.swift in Sources */,
 				370DAA6A26A708A200D89A49 /* IntroViewController.swift in Sources */,
+				370DAA6C26A71FC000D89A49 /* LoginMovieViewController.swift in Sources */,
 				370DAA2B26A6FDFA00D89A49 /* AppDelegate.swift in Sources */,
 				370DAA2D26A6FDFA00D89A49 /* SceneDelegate.swift in Sources */,
 			);
