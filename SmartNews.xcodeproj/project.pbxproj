@@ -24,6 +24,14 @@
 		370DAA6C26A71FC000D89A49 /* LoginMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA6B26A71FC000D89A49 /* LoginMovieViewController.swift */; };
 		370DAA6E26A7230D00D89A49 /* start.mov in Resources */ = {isa = PBXBuildFile; fileRef = 370DAA6D26A7230D00D89A49 /* start.mov */; };
 		370DAA7026A723A200D89A49 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA6F26A723A200D89A49 /* BaseViewController.swift */; };
+		370DAA7226A72EE000D89A49 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA7126A72EE000D89A49 /* Page1ViewController.swift */; };
+		370DAA7426A7359800D89A49 /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA7326A7359700D89A49 /* NewsItems.swift */; };
+		370DAA7626A7B8E200D89A49 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA7526A7B8E200D89A49 /* WebViewController.swift */; };
+		370DAA7A26A7BA8C00D89A49 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA7926A7BA8C00D89A49 /* Page2ViewController.swift */; };
+		370DAA7C26A7BAE500D89A49 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA7B26A7BAE500D89A49 /* Page3ViewController.swift */; };
+		370DAA7E26A7BB2100D89A49 /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA7D26A7BB2100D89A49 /* Page4ViewController.swift */; };
+		370DAA8026A7BB4F00D89A49 /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA7F26A7BB4F00D89A49 /* Page5ViewController.swift */; };
+		370DAA8226A7BB6B00D89A49 /* Page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA8126A7BB6B00D89A49 /* Page6ViewController.swift */; };
 		B054888AE5D8414F658A89CB /* Pods_SmartNews_SmartNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777A4522277D37715F4142B3 /* Pods_SmartNews_SmartNewsUITests.framework */; };
 		F71E50D9D9552ACFB212C2C0 /* Pods_SmartNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4641FFC2D435B9EC0182DCDB /* Pods_SmartNews.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +77,14 @@
 		370DAA6B26A71FC000D89A49 /* LoginMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMovieViewController.swift; sourceTree = "<group>"; };
 		370DAA6D26A7230D00D89A49 /* start.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = start.mov; sourceTree = "<group>"; };
 		370DAA6F26A723A200D89A49 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		370DAA7126A72EE000D89A49 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		370DAA7326A7359700D89A49 /* NewsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItems.swift; sourceTree = "<group>"; };
+		370DAA7526A7B8E200D89A49 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		370DAA7926A7BA8C00D89A49 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		370DAA7B26A7BAE500D89A49 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		370DAA7D26A7BB2100D89A49 /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		370DAA7F26A7BB4F00D89A49 /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
+		370DAA8126A7BB6B00D89A49 /* Page6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6ViewController.swift; sourceTree = "<group>"; };
 		4641FFC2D435B9EC0182DCDB /* Pods_SmartNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		777A4522277D37715F4142B3 /* Pods_SmartNews_SmartNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNews_SmartNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		912B0AE070D8FA72D9AF2FD0 /* Pods_SmartNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +183,7 @@
 		370DAA5A26A6FF5500D89A49 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				370DAA7326A7359700D89A49 /* NewsItems.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +206,13 @@
 				370DAA6926A708A200D89A49 /* IntroViewController.swift */,
 				370DAA6B26A71FC000D89A49 /* LoginMovieViewController.swift */,
 				370DAA6F26A723A200D89A49 /* BaseViewController.swift */,
+				370DAA7126A72EE000D89A49 /* Page1ViewController.swift */,
+				370DAA7526A7B8E200D89A49 /* WebViewController.swift */,
+				370DAA7926A7BA8C00D89A49 /* Page2ViewController.swift */,
+				370DAA7B26A7BAE500D89A49 /* Page3ViewController.swift */,
+				370DAA7D26A7BB2100D89A49 /* Page4ViewController.swift */,
+				370DAA7F26A7BB4F00D89A49 /* Page5ViewController.swift */,
+				370DAA8126A7BB6B00D89A49 /* Page6ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -461,10 +485,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				370DAA7026A723A200D89A49 /* BaseViewController.swift in Sources */,
+				370DAA7426A7359800D89A49 /* NewsItems.swift in Sources */,
 				370DAA6A26A708A200D89A49 /* IntroViewController.swift in Sources */,
+				370DAA7C26A7BAE500D89A49 /* Page3ViewController.swift in Sources */,
 				370DAA6C26A71FC000D89A49 /* LoginMovieViewController.swift in Sources */,
+				370DAA8026A7BB4F00D89A49 /* Page5ViewController.swift in Sources */,
+				370DAA7A26A7BA8C00D89A49 /* Page2ViewController.swift in Sources */,
+				370DAA7226A72EE000D89A49 /* Page1ViewController.swift in Sources */,
 				370DAA2B26A6FDFA00D89A49 /* AppDelegate.swift in Sources */,
+				370DAA7E26A7BB2100D89A49 /* Page4ViewController.swift in Sources */,
+				370DAA8226A7BB6B00D89A49 /* Page6ViewController.swift in Sources */,
 				370DAA2D26A6FDFA00D89A49 /* SceneDelegate.swift in Sources */,
+				370DAA7626A7B8E200D89A49 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
